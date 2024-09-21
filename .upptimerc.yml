@@ -31,7 +31,7 @@ status-website:
   cname: status.666777123.xyz
   # baseUrl: /status
   introTitle: "**⚡| Tech-Craft™ |⚡ ** monitorovací stránka"
-  introMessage: Jednoduchá status stránka využívající github actions
+  introMessage: Jednoduchá stránka monitorující dostupnost služeb
   # navbar:
   #  - title: Status
   #    href: /
