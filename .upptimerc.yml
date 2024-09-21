@@ -50,4 +50,4 @@ workflowSchedule:
   uptime: "*/5 * * * *"
 
 i18n:
-  footer: Naposledy aktualizováno v *$(TZ=":Europe/Prague" date)*
+  footer: Naposledy aktualizováno v *$(date +'%H:%M:%S %d.%m.%Y')*
