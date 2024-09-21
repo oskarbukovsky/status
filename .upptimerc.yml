@@ -3,7 +3,7 @@ owner: oskarbukovsky # Your GitHub organization or username, where this reposito
 repo: status # The name of this repository
 
 sites:
-  - name: Google
+  - name: Google (Reference)
     url: https://www.google.com
   - name: Hosting Panel
     url: https://panel.vagonbrei.eu/
@@ -16,7 +16,8 @@ sites:
     url: https://plan.666777123.xyz/
   - name: Dynmap
     url: https://dynmap-tech-craft.666777123.xyz/
-
+    icon: https://dynmap-tech-craft.666777123.xyz/images/icons/favicon.ico
+    
 skipDeleteIssues: true 
 
 status-website:
