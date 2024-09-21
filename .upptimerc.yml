@@ -12,13 +12,10 @@ sites:
     url: doranda.vagonbrei.eu
     port: 26567
     icon: https://raw.githubusercontent.com/oskarbukovsky/status/refs/heads/master/assets/server-icon.png
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Plan
+    url: https://plan.666777123.xyz/
+  - name: Dynmap
+    url: https://dynmap-tech-craft.666777123.xyz/
 
 skipDeleteIssues: true 
 
@@ -51,3 +48,6 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
+
+i18n:
+  footer: Naposledy aktualizováno v *$(TZ=":Europe/Prague" date)*
