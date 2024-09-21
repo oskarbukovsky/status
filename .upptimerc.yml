@@ -25,7 +25,7 @@ skipDeleteIssues: true
 status-website:
   name: ⚡| Tech-Craft™ |⚡ Status
   logoUrl: https://raw.githubusercontent.com/oskarbukovsky/status/refs/heads/master/assets/server-icon.png
-  # favicon: https://raw.githubusercontent.com/oskarbukovsky/status/refs/heads/master/assets/server-icon.png
+  favicon: https://raw.githubusercontent.com/oskarbukovsky/status/refs/heads/master/assets/server-icon.png
   theme: night
   
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -42,3 +42,12 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "59 0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
