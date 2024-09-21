@@ -52,3 +52,20 @@ workflowSchedule:
 
 i18n:
   footer: 
+  overallUptime: "Průměrná dostupnost: $UPTIME"
+  averageResponseTime: "Průměrná doba odezvy: $TIMEms"
+  durationAll: vše
+  liveStatus: Dostupnost
+  pastScheduledMaintenance: Dřívější probéhlé údržby
+  scheduledMaintenance: Plánovaná údržba
+  pastIncidents: Dřívější výpadky
+  activeIncidents: Aktivní výpadny
+  
+  allSystemsOperational: "🟩 Všechny služby funkční"
+  degradedPerformance: "🟨 Některé funkce omezené"
+  completeOutage: "🟥 Kompletní výpadek"
+  partialOutage: "🟧 Některé funkce nefunkční"
+  
+  up: "🟩 Funkční"
+  degraded: "🟨 Degradované"
+  down: "🟥 Nedostupné"
