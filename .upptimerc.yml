@@ -30,7 +30,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.666777123.xyz
   # baseUrl: /status
-  introTitle: "**⚡| Tech-Craft™ |⚡ ** monitorovací stránka"
+  introTitle: "**⚡| Tech-Craft™ |⚡ ** status"
   introMessage: Jednoduchá stránka monitorující dostupnost služeb
   # navbar:
   #  - title: Status
