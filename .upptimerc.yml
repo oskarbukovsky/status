@@ -5,13 +5,6 @@ repo: status # The name of this repository
 sites:
   - name: Google (Reference)
     url: https://www.google.com
-  - name: Wiki
-    url: https://wiki.666777123.xyz/
-  - name: Obchod
-    url: https://shop.666777123.xyz/
-    expectedStatusCodes:
-      - 200
-      - 403
   - name: Minecraft Server
     check: "tcp-ping"
     url: doranda.vagonbrei.eu
@@ -20,6 +13,13 @@ sites:
   - name: Dynmap
     url: https://dynmap-tech-craft.666777123.xyz/
     icon: https://dynmap-tech-craft.666777123.xyz/images/icons/favicon.ico
+  - name: Wiki
+    url: https://wiki.666777123.xyz/
+  - name: Obchod
+    url: https://shop.666777123.xyz/
+    expectedStatusCodes:
+      - 200
+      - 403
   - name: Plan
     url: https://plan.666777123.xyz/
   - name: Hosting Panel
