@@ -8,7 +8,9 @@ sites:
   - name: Wiki
     url: https://wiki.666777123.xyz/
   - name: Obchod
+    check: "tcp-ping"
     url: https://shop.666777123.xyz/
+    port: 80
   - name: Minecraft Server
     check: "tcp-ping"
     url: doranda.vagonbrei.eu
@@ -63,7 +65,7 @@ i18n:
   pastScheduledMaintenance: Dřívější probéhlé údržby
   scheduledMaintenance: Plánovaná údržba
   pastIncidents: Dřívější výpadky
-  activeIncidents: Aktivní výpadny
+  activeIncidents: Aktivní výpadky
   
   allSystemsOperational: "Všechny služby funkční"
   degradedPerformance: "Některé funkce omezené"
