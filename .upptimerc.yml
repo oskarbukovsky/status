@@ -10,13 +10,13 @@ sites:
     url: doranda.vagonbrei.eu
     port: 26567
     icon: https://raw.githubusercontent.com/oskarbukovsky/status/refs/heads/master/assets/server-icon.png
-  - name: Dynmap
-    url: https://dynmap-tech-craft.666777123.xyz/
-    icon: https://dynmap-tech-craft.666777123.xyz/images/icons/favicon.ico
-  - name: Plan
-    url: https://plan.666777123.xyz/
-  - name: Hosting Panel
-    url: https://panel.vagonbrei.eu/
+#  - name: Dynmap
+#    url: https://dynmap-tech-craft.666777123.xyz/
+#    icon: https://dynmap-tech-craft.666777123.xyz/images/icons/favicon.ico
+#  - name: Plan
+#    url: https://plan.666777123.xyz/
+#  - name: Hosting Panel
+#    url: https://panel.vagonbrei.eu/
     
 skipDeleteIssues: true 
 
@@ -41,31 +41,31 @@ status-website:
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 
-workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
-  staticSite: "0 1 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
+#workflowSchedule:
+#  graphs: "0 0 * * *"
+#  responseTime: "0 23 * * *"
+#  staticSite: "0 1 * * *"
+#  summary: "0 0 * * *"
+#  updateTemplate: "0 0 * * *"
+#  updates: "0 3 * * *"
+#  uptime: "*/5 * * * *"
 
 i18n:
-  footer: 
-  overallUptime: "Průměrná dostupnost: $UPTIME"
-  averageResponseTime: "Průměrná doba odezvy: $TIMEms"
-  durationAll: vše
-  liveStatus: Dostupnost
-  pastScheduledMaintenance: Dřívější probéhlé údržby
-  scheduledMaintenance: Plánovaná údržba
-  pastIncidents: Dřívější výpadky
-  activeIncidents: Aktivní výpadny
+  footer:    .
+#  overallUptime: "Průměrná dostupnost: $UPTIME"
+#  averageResponseTime: "Průměrná doba odezvy: $TIMEms"
+#  durationAll: vše
+#  liveStatus: Dostupnost
+#  pastScheduledMaintenance: Dřívější probéhlé údržby
+#  scheduledMaintenance: Plánovaná údržba
+#  pastIncidents: Dřívější výpadky
+#  activeIncidents: Aktivní výpadny
   
-  allSystemsOperational: "🟩 Všechny služby funkční"
-  degradedPerformance: "🟨 Některé funkce omezené"
-  completeOutage: "🟥 Kompletní výpadek"
-  partialOutage: "🟧 Některé funkce nefunkční"
+#  allSystemsOperational: "🟩 Všechny služby funkční"
+#  degradedPerformance: "🟨 Některé funkce omezené"
+#  completeOutage: "🟥 Kompletní výpadek"
+#  partialOutage: "🟧 Některé funkce nefunkční"
   
-  up: "🟩 Funkční"
-  degraded: "🟨 Degradované"
-  down: "🟥 Nedostupné"
+#  up: "🟩 Funkční"
+#  degraded: "🟨 Degradované"
+#  down: "🟥 Nedostupné"
