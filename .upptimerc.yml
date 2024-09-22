@@ -10,13 +10,13 @@ sites:
     url: doranda.vagonbrei.eu
     port: 26567
     icon: https://raw.githubusercontent.com/oskarbukovsky/status/refs/heads/master/assets/server-icon.png
-#  - name: Dynmap
-#    url: https://dynmap-tech-craft.666777123.xyz/
-#    icon: https://dynmap-tech-craft.666777123.xyz/images/icons/favicon.ico
-#  - name: Plan
-#    url: https://plan.666777123.xyz/
-#  - name: Hosting Panel
-#    url: https://panel.vagonbrei.eu/
+  - name: Dynmap
+    url: https://dynmap-tech-craft.666777123.xyz/
+    icon: https://dynmap-tech-craft.666777123.xyz/images/icons/favicon.ico
+  - name: Plan
+    url: https://plan.666777123.xyz/
+  - name: Hosting Panel
+    url: https://panel.vagonbrei.eu/
     
 skipDeleteIssues: true 
 
@@ -52,20 +52,20 @@ status-website:
 
 i18n:
   footer:    .
-#  overallUptime: "Průměrná dostupnost: $UPTIME"
-#  averageResponseTime: "Průměrná doba odezvy: $TIMEms"
-#  durationAll: vše
-#  liveStatus: Dostupnost
-#  pastScheduledMaintenance: Dřívější probéhlé údržby
-#  scheduledMaintenance: Plánovaná údržba
-#  pastIncidents: Dřívější výpadky
-#  activeIncidents: Aktivní výpadny
+  overallUptime: "Průměrná dostupnost: $UPTIME"
+  averageResponseTime: "Průměrná doba odezvy: $TIMEms"
+  durationAll: vše
+  liveStatus: Dostupnost
+  pastScheduledMaintenance: Dřívější probéhlé údržby
+  scheduledMaintenance: Plánovaná údržba
+  pastIncidents: Dřívější výpadky
+  activeIncidents: Aktivní výpadny
   
-#  allSystemsOperational: "🟩 Všechny služby funkční"
-#  degradedPerformance: "🟨 Některé funkce omezené"
-#  completeOutage: "🟥 Kompletní výpadek"
-#  partialOutage: "🟧 Některé funkce nefunkční"
-  
-#  up: "🟩 Funkční"
-#  degraded: "🟨 Degradované"
-#  down: "🟥 Nedostupné"
+  allSystemsOperational: "🟩 Všechny služby funkční"
+  degradedPerformance: "🟨 Některé funkce omezené"
+  completeOutage: "🟥 Kompletní výpadek"
+  partialOutage: "🟧 Některé funkce nefunkční"
+ 
+  up: "🟩 Funkční"
+  degraded: "🟨 Degradované"
+  down: "🟥 Nedostupné"
