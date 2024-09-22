@@ -51,7 +51,7 @@ status-website:
 #  uptime: "*/5 * * * *"
 
 i18n:
-  footer:    
+  footer: Hostováno na Github pages
   overallUptime: "Průměrná dostupnost: $UPTIME"
   averageResponseTime: "Průměrná doba odezvy: $TIMEms"
   durationAll: vše
