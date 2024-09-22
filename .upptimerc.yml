@@ -8,9 +8,7 @@ sites:
   - name: Wiki
     url: https://wiki.666777123.xyz/
   - name: Obchod
-    check: "tcp-ping"
     url: https://shop.666777123.xyz/
-    port: 80
     expectedStatusCodes:
       - 200
       - 403
