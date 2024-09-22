@@ -51,7 +51,7 @@ status-website:
 #  uptime: "*/5 * * * *"
 
 i18n:
-  footer:    .
+  footer:    
   overallUptime: "Průměrná dostupnost: $UPTIME"
   averageResponseTime: "Průměrná doba odezvy: $TIMEms"
   durationAll: vše
@@ -61,10 +61,10 @@ i18n:
   pastIncidents: Dřívější výpadky
   activeIncidents: Aktivní výpadny
   
-  allSystemsOperational: "🟩 Všechny služby funkční"
-  degradedPerformance: "🟨 Některé funkce omezené"
-  completeOutage: "🟥 Kompletní výpadek"
-  partialOutage: "🟧 Některé funkce nefunkční"
+  allSystemsOperational: "Všechny služby funkční"
+  degradedPerformance: "Některé funkce omezené"
+  completeOutage: "Kompletní výpadek"
+  partialOutage: "Některé funkce nefunkční"
  
   up: "🟩 Funkční"
   degraded: "🟨 Degradované"
