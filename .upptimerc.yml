@@ -7,6 +7,8 @@ sites:
     url: https://www.google.com
   - name: Wiki
     url: https://wiki.666777123.xyz/
+  - name: Obchod
+    url: https://shop.666777123.xyz/
   - name: Minecraft Server
     check: "tcp-ping"
     url: doranda.vagonbrei.eu
