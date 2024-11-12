@@ -97,19 +97,19 @@
     "url": "https://wiki.666777123.xyz/",
     "icon": "https://icons.duckduckgo.com/ip3/wiki.666777123.xyz.ico",
     "slug": "wiki",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "98.42%",
-    "uptimeWeek": "99.77%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.97%",
-    "time": 414,
-    "timeDay": 563,
-    "timeWeek": 499,
-    "timeMonth": 469,
-    "timeYear": 414,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "97.87%",
+    "uptimeWeek": "99.70%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.96%",
+    "time": 418,
+    "timeDay": 587,
+    "timeWeek": 514,
+    "timeMonth": 474,
+    "timeYear": 418,
     "dailyMinutesDown": {
-      "2024-11-12": 23
+      "2024-11-12": 31
     }
   },
   {
